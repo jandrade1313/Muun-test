@@ -8,15 +8,15 @@ add the folowing commands to the script and save it:
 USER="tempuser"
 HOME_DIR="/home/$USER"
 SKEL_DIR="/etc/skel"
-# Ensure the home directory exists
+#Ensure the home directory exists
 mkdir -p "$HOME_DIR"
-# Clean the current home directory
+#Clean the current home directory
 find $HOME_DIR -mindepth 1 -delete
-# Copy default files and directories
+#Copy default files and directories
 cp -a $SKEL_DIR/. $HOME_DIR/
-# Set the correct ownership
+#Set the correct ownership
 chown -R $USER:$USER $HOME_DIR
-# Update user directories
+#Update user directories
 xdg-user-dirs-update
 .
 .
