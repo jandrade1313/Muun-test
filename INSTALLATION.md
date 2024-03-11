@@ -13,7 +13,8 @@ This document provides step-by-step instructions on how to create, install, and 
 2. **Name your VM** and choose "Linux" as the type and "Ubuntu (64-bit)" as the version. Adjust according to the distribution you're using.
 3. **Allocate memory (RAM)**: We recommend at least 8GB (8192MB) for a smooth experience.
 4. **Create a virtual hard disk**: Choose "VDI (VirtualBox Disk Image)" and allocate at least 50GB of space. Ensure the storage on the physical hard disk is set to "Dynamically allocated" for efficiency.
-5. **Start the VM** and select the ISO file of your Linux distribution when prompted to choose a start-up disk.
+5. **Net Configuration to be reachable from the local network**: select you VM and click on configuration, navigate to Net and change the adapter from "NAT" to "Bridge adapter"
+6. **Start the VM** and select the ISO file of your Linux distribution when prompted to choose a start-up disk.
 
 ## Installing the Operating System
 
