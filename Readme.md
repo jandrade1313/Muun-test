@@ -27,7 +27,7 @@ To use this project, you will need:
 For more details on installing, configuring, and using your virtual machine, please refer to the following documents:
 
 - [Installation and Configuration](INSTALLATION.md)
-- [Automation and Scaling](AUTOMATION.md)
+- [Automation and Scaling](Automation.md)
 - [Testing and Validation](TESTING.md)
 
 ## Contributing
