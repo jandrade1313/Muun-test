@@ -4,7 +4,7 @@ This project provides an automated solution for creating and configuring a Linux
 
 ## Features
 
-- **Linux with Graphical Environment**: Choose from various Linux distributions and desktop environments according to your preferences.
+- **Linux with Graphical Environment**: Choose from various Linux distributions and desktop environments according to your preferences in this case we are using Ubuntu desktop 22.04.
 - **Pre-installed Tools**: Slack and Docker ready to use.
 - **Automatic Security Updates**: Configuration for automatically updating the operating system.
 - **Custom User**: Instructions for creating a new user on the machine.
