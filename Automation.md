@@ -1,5 +1,5 @@
 Script for Ephemeral user:
-Step 1:
+# Step 1:
 create a script.sh in /usr/local/bin directory it shoould look like this:
 nano /usr/local/bin/clean_home.sh (you can name it how you want)
 add the folowing commands to the script and save it:
@@ -21,13 +21,14 @@ xdg-user-dirs-update
 .
 .
 .
-Step 2: now give permissions to the script to run:
+# Step 2: now give permissions to the script to run:
 sudo chmod +x /usr/local/bin/restore_temp_home.sh
 
-Step 3: executing the command at every end of session:
+# Step 3: executing the command at every end of session:
 open this directory and add some lines
 sudo nano /etc/pam.d/common-session
 add: session optional pam_exec.so type=close_session /usr/local/bin/clean_home.sh
+
 
 
 
