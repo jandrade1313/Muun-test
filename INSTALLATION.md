@@ -38,7 +38,8 @@ sudo apt install unattended-upgrades
 
 Step 3: configure the unnatended updates
 open sudo nano /etc/apt/apt.conf.d/50unattended-upgrades and set your configuration in this case we enable security, infra and updates:
-"${distro_id}ESMApps:${distro_codename}-apps-security";
+        
+        "${distro_id}ESMApps:${distro_codename}-apps-security";
 
         "${distro_id}ESM:${distro_codename}-infra-security";
 
