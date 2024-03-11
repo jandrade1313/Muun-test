@@ -28,7 +28,7 @@ For more details on installing, configuring, and using your virtual machine, ple
 
 - [Installation and Configuration](INSTALLATION.md)
 - [Automation and Scaling](Automation.md)
-- [Testing and Validation](TESTING.md)
+
 
 ## Contributing
 
