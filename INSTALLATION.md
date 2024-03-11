@@ -50,7 +50,7 @@ open sudo nano /etc/apt/apt.conf.d/50unattended-upgrades and set your configurat
 ### Slack
 
 1. open a new terminal type:
-           " wget https://downloads.slack-edge.com/releases/linux/4.36.140/prod/x64/slack-desktop-4.36.140-amd64.deb"
+           " wget https://downloads.slack-edge.com/releases/linux/4.36.140/prod/x64/slack-desktop-4.36.140-amd64.deb";
 3. "sudo dpkg -i /path/to/downloaded/slack.deb"
 
 ## Docker
