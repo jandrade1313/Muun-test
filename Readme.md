@@ -28,11 +28,9 @@ For more details on installing, configuring, and using your virtual machine, ple
 
 - [Installation and Configuration](INSTALLATION.md)
 - [Automation and Scaling](Automation.md)
+- [Automation and Scaling](Automation.md)
 
 
-## Contributing
-
-We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for more details on our code of conduct, and the process for submitting pull requests.
 
 ## License
 
