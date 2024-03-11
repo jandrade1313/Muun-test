@@ -24,6 +24,27 @@ Follow the on-screen instructions to install your Linux distribution. During ins
 ## Installing Essential Tools
 
 After the installation is complete and you've logged into your new Linux environment, proceed to install the necessary tools.
+Install VirtualBox Guest Additions on Ubuntu 22.04:
+Before you can install VirtualBox Guest Additions, you’ll need some essential packages. Run the following command in your terminal to install them:
+
+$ sudo apt update
+$ sudo apt install build-essential linux-headers-$(uname -r) -y
+
+Mount the VirtualBox Guest Additions CD Image
+In VirtualBox, go to the “Devices” menu at the top of the virtual machine window and select “Insert Guest Additions CD Image.” This action virtually mount the Guest Additions CD image into your virtual machine.
+
+Now, let’s navigate to the directory containing the VirtualBox Guest Additions CD image. In your terminal, run:
+
+$ cd /media/linuxtechi/VBox_GAs_7.0.4/
+This command takes you to the mounted CD image directory. Note that the directory name may vary slightly depending on your VirtualBox version.
+
+To install VirtualBox Guest Additions, run the following command:
+
+$ sudo ./VBoxLinuxAdditions.run
+
+In VirtualBox, go to the “Devices” menu at the top of the virtual machine window and select “Upgrade Guest additions.” This action virtually upgrades the gust addition and now we can rezise the vm and copy and paste outside of it
+
+
 
 ## Unnatended updates
 Step 1: Update Ubuntu
@@ -37,7 +58,7 @@ To install the Unattended Upgrades Package, open the terminal and enter the foll
 sudo apt install unattended-upgrades
 
 Step 3: configure the unnatended updates
-open sudo nano /etc/apt/apt.conf.d/50unattended-upgrades and set your configuration in this case we enable security, infra and updates:
+open sudo nano /etc/apt/apt.conf.d/50unattended-upgrades and set your configuration in this case we enable security, infra and updates by removing "//" at the start of the line:
         
         "${distro_id}ESMApps:${distro_codename}-apps-security";
 
@@ -55,7 +76,7 @@ open sudo nano /etc/apt/apt.conf.d/50unattended-upgrades and set your configurat
         sudo dpkg -i /path/to/downloaded/slack.deb"
 
 ## Docker
-1 to install docker follow this commands:
+1. to install docker follow this commands:
 
 sudo apt-get update
 
