@@ -87,11 +87,6 @@ sudo usermod -aG docker $USER
 
 8. Logout and log back in for the changes to take effect.
 
-## Create a new User
-open a terminal ans type:
-sudo adduser newusername
-if you want to give admin privilage type:
-usermod -aG sudo newusername
 
 
 
