@@ -19,16 +19,16 @@ To use this project, you will need:
 ### Installation and Configuration
 
 1. **Creating the Virtual Machine**: Follow the detailed instructions in [INSTALLATION.md](INSTALLATION.md) to create and set up your virtual machine from scratch.
-2. **Installing Tools**: Refer to the installation section in [INSTALLATION.md](docs/INSTALLATION.md) for installing Slack, Docker, and configuring automatic updates.
-3. **Creating a New User**: Instructions for creating a new user on your VM can be found in [CONFIGURATION.md](docs/CONFIGURATION.md).
+2. **Installing Tools**: Refer to the installation section in [INSTALLATION.md](INSTALLATION.md) for installing Slack, Docker, and configuring automatic updates.
+3. **Creating a New User**: Instructions for creating a new user on your VM can be found in [CONFIGURATION.md](CONFIGURATION.md).
 
 ## Documentation
 
 For more details on installing, configuring, and using your virtual machine, please refer to the following documents:
 
-- [Installation and Configuration](docs/INSTALLATION.md)
-- [Automation and Scaling](docs/AUTOMATION.md)
-- [Testing and Validation](docs/TESTING.md)
+- [Installation and Configuration](INSTALLATION.md)
+- [Automation and Scaling](AUTOMATION.md)
+- [Testing and Validation](TESTING.md)
 
 ## Contributing
 
