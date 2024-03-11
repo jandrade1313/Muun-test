@@ -34,16 +34,11 @@ $ sudo apt install build-essential linux-headers-$(uname -r) -y
 Mount the VirtualBox Guest Additions CD Image
 In VirtualBox, go to the “Devices” menu at the top of the virtual machine window and select “Insert Guest Additions CD Image.” This action virtually mount the Guest Additions CD image into your virtual machine.
 
-Now, let’s navigate to the directory containing the VirtualBox Guest Additions CD image. In your terminal, run:
-
-$ cd /media/linuxtechi/VBox_GAs_7.0.4/
-This command takes you to the mounted CD image directory. Note that the directory name may vary slightly depending on your VirtualBox version.
-
-To install VirtualBox Guest Additions, run the following command:
-
-$ sudo ./VBoxLinuxAdditions.run
+Open the new CD image and rigth clik the file name autorun.sh and click run as program this will install the guste addition tools now proceed to upgrade it:
 
 In VirtualBox, go to the “Devices” menu at the top of the virtual machine window and select “Upgrade Guest additions.” This action virtually upgrades the gust addition and now we can rezise the vm and copy and paste outside of it
+
+once finish reboot your VM
 
 
 
