@@ -1,4 +1,4 @@
-Script for Ephemeral user:
+## Script for Ephemeral user:
 # Step 1:
 create a script.sh in /usr/local/bin directory it shoould look like this:
 nano /usr/local/bin/clean_home.sh (you can name it how you want)
